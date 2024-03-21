@@ -4,14 +4,11 @@
              x:Class="MauiJogoVelha.MainPage">
 
     <ContentPage.Background>
-        <RadialGradientBrush >
-            <GradientStop Color="#3185B8" Offset="0.1"/>
-            <GradientStop Color="#3E6F8E" Offset="0.0"/>
-            <GradientStop Color="#1795E3" Offset="0.0"/>
-            <GradientStop Color="#3C5463" Offset="0.0"/>
-            <GradientStop Color="#2C3439" Offset="0.0"/>
-            
-        </RadialGradientBrush>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#3185B8" Offset="1.0"/>
+            <GradientStop Color="#00FFAA" Offset="0.0"/>
+
+        </LinearGradientBrush>
     </ContentPage.Background>
 
 
